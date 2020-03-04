@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  color: rgb(203, 182, 223);
+  background-color: rgb(29, 29, 94);
+  font-size: 40px;
+  padding: 30px;
+  font-weight: bold;
+  /* margin: 10px 300px; */
+}
+.todolist{
+  background-color: rgb(165, 186, 230);
+  margin: 0px 300px;
+}
+.addtodo{
+padding: 13px 13px 13px 30px;
+width: 650px;
+font-size: 18px;
+border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: rgb(100, 167, 100);
+  padding: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list{
+  width: 765px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  margin: 0 300px;
+}
+.task{
+  background-color: rgb(77, 156, 103);
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+}
+.task:nth-child(2n){
+  background-color: rgb(164, 219, 178);
+}
+.icons{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  text-align: center;
+  width: 90px;
+  float: right;
+  /* margin-left: 100px; */
 }
+.fa-edit{
+  background-color:  rgb(100, 167, 100);
+  padding: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-trash-alt {
+  background-color: rgb(172, 9, 9);
+padding: 10px;
+}
+.complete{
+  text-decoration: line-through;
 }
